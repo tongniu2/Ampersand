@@ -1,7 +1,7 @@
 <?php
     $to = "ampersand.chair@mcgillbasic.com";
     $from = $_REQUEST['name'];
-    $headers = "Content-type: text/html;From: $from";
+    $headers = "Content-type: text/html;From: $from; Reply-To: $_REQUEST['email']";
 
     $fields = array();
     $fields["name"] = $_REQUEST['name'];
@@ -13,6 +13,6 @@
     $body .= 'Email : '.$fields['email']. '<br>';
     $body .= 'Message : '.$fields['message']. '<br>';
 
-    $send = mail($to, $body, $headers);
+    $send = mail('ampersand.chair@mcgillbasic.com', $body, $headers);
 
 ?>
