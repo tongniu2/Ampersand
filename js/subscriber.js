@@ -2,7 +2,7 @@ jQuery( document ).ready(function( $ ) {
 	// variable to hold request
 	var request;
 	// bind to the submit event of our form
-	$("#foo").submit(function(event){
+	$("#gform-subscribe").submit(function(event){
 		// abort any pending request
 		if (request) {
 			request.abort();
@@ -21,7 +21,7 @@ jQuery( document ).ready(function( $ ) {
 		// fire off the request to /form.php
 		request = $.ajax({
 			// url: "https://script.google.com/macros/s/AKfycbzV--xTooSkBLufMs4AnrCTdwZxVNtycTE4JNtaCze2UijXAg8/exec", // works
-      url: "https://script.google.com/macros/s/AKfycbwHyDcY2sMFzoUPYCHVnqrzNyZOhlI4yuf2vYIFX1MXEVGixhX5/exec",  // clone
+      url: "https://script.google.com/macros/s/AKfycbyAw7cg6bFk10YKdqwFAKvMMXENsLiJyNN9tUtMQlzbcBB1PTIZ/exec",  // clone
 			type: "post",
 			data: serializedData
 		});
