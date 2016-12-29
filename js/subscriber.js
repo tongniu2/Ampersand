@@ -48,5 +48,8 @@ jQuery( document ).ready(function( $ ) {
 		});
 		// prevent default posting of form
 		event.preventDefault();
+		document.getElementById('gform-subscribe').style.display = 'none'; // hide form
+        	document.getElementById('thankyou_subscriber').style.display = 'block';
+        return;
 	});
 });
