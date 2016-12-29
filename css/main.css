@@ -231,7 +231,7 @@ a:active {
   border-top: 5px solid #ecf0f1;
   border-bottom: 5px solid #ecf0f1;
   border-right: 5px solid #ecf0f1;
-  background: #41aba0;
+  background: #4fc637;
   width: 50px;
   height: 60px;
   -webkit-transform-origin: 0% 50%;
@@ -264,15 +264,15 @@ a:active {
             transform: perspective(600px) rotateY(0deg);
   }
   20% {
-    background: #41aba0;
+    background: #4fc637;
   }
   29.9% {
-    background: #41aba0;
+    background: #4fc637;
   }
   30% {
     -webkit-transform: perspective(200px) rotateY(-90deg);
             transform: perspective(200px) rotateY(-90deg);
-    background: #41aba0;
+    background: #4fc637;
   }
   54.999% {
     opacity: 1;
@@ -283,12 +283,12 @@ a:active {
   60% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #4fc637;
   }
   100% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #4fc637;
   }
 }
 
@@ -298,15 +298,15 @@ a:active {
             transform: perspective(600px) rotateY(0deg);
   }
   20% {
-    background: #41aba0;
+    background: #4fc637;
   }
   29.9% {
-    background: #41aba0;
+    background: #4fc637;
   }
   30% {
     -webkit-transform: perspective(200px) rotateY(-90deg);
             transform: perspective(200px) rotateY(-90deg);
-    background: #41aba0;
+    background: #4fc637;
   }
   54.999% {
     opacity: 1;
@@ -317,12 +317,12 @@ a:active {
   60% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #4fc637;
   }
   100% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #4fc637;
   }
 }
 
@@ -709,7 +709,7 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
 }
 
 .init-slider .owl-dot {
-    background-color: #41aba0;
+    background-color: #4fc637;
     border-radius: 50px;
     display: inline-block;
     height: 10px;
