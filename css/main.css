@@ -673,11 +673,11 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
     color: #7e7e7e;
 }
 
-.tbox {position:absolute; display:none; padding:14px 17px; z-index:900; color: #000}
-.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(../../Ampersand2015/Images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333; color: #000}
-.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; color:#000; z-index:800}
-.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:#fff url(../../Ampersand2015/Images/close.png) no-repeat}
-.tclose:hover {background-position:0 -30px}
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900; color: #000;}
+.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(../../Ampersand2015/Images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333; color: #000;}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; color:#000; z-index:800;}
+.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:#000 url(../../Ampersand2015/Images/close.png) no-repeat;}
+.tclose:hover {background-position:0 -30px;}
 /*--
     About start
 --*/
