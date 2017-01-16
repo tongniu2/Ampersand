@@ -337,7 +337,7 @@ a:active {
 
 #hero-area {
   padding:180px 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(135deg, #000 0%, #15d530 100%) repeat scroll 0 0;
+    background-image: rgba(0, 0, 0, 0) linear-gradient(135deg, #000 0%, #15d530 100%) repeat scroll 0 0, url('images/logo-notext.png');
 }
 #hero-area:before {
     content: "";
