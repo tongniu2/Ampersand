@@ -33,9 +33,9 @@ $(document).ready(function(){
             'year':     2017,
             'hour':     10,
             'min':      00,
-            'sec':      01,
+            'sec':      00,
         },
-        omitWeeks: false
+        omitWeeks: true
     });
 
     $('.init-slider').owlCarousel({
