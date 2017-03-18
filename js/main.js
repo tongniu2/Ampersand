@@ -140,4 +140,11 @@ function init() {
         icon: 'img/map.png',
         title: 'Twing!'
     });
+    $(function ()
+{
+    $('img').on('click', function ()
+    {
+        $(this).width(1000);
+    });
+});
 }
